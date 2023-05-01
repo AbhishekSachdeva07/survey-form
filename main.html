@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="icon" href="survey.png">
+    <header>
+        <nav>
+            <div class="main">
+                <div class="leftt">SURVEY FORM</div>
+                <div class="rightt">
+                    <a href="#">HOME</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#">LOGIN</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#">SIGNUP</a>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+    <style>
+        .con{
+            overflow: hidden;
+        }
+        .left{
+            float: left;
+            width: 49%;
+            height: 600px;
+            text-align: center;
+            position: relative;
+            top: 80px;
+        }
+        .right{
+            float: right;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 600px;
+            
+        }
+        .leftt{
+            float: left;
+        }
+        .rightt{
+            float: right;
+        }
+        .main{
+            overflow: hidden;
+        }
+        .rightt ul{
+            list-style: none;
+            display: flex;
+        }
+        .rightt a{
+            text-decoration: none;
+            color: black;
+        }
+        nav{
+            background-color: rgb(222, 223, 224);
+            padding: 5px;
+            overflow: hidden;
+            box-shadow: 0px 0px 3px 1px;
+        }
+        .right img{
+            height: 100%;
+            
+        }
+        .left span{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 90px;
+        }
+        #btn{
+            background-color: rgb(189, 51, 51);
+            color: white;
+            padding: 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+            position: absolute;
+            top: 630px;
+            left: 690px;
+        }
+        #btn:hover{
+            color: black;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <br><br><br>
+    <div class="con">
+        <div class="left">
+            <span>ONLINE SURVEYS</span><br>
+            <h3>#Complete the Surveys to <a style="color: red;">EARN MONEY</a></h3>
+            <img src="money.png" alt="">
+            
+        </div>
+        <button id="btn" onclick="window.location.href='index.html'">CLICK HERE TO START SURVEY</button>
+        <div class="right">
+            <img src="survey1-removebg-preview.png" alt="">
+        </div>
+    </div>
+
+</body>
+</html>
